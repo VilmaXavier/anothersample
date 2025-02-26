@@ -1,0 +1,11 @@
+streamlit
+streamlit-webrtc
+numpy
+av
+requests
+bs4
+torch
+transformers
+google-cloud-speech
+google-cloud-texttospeech
+nltk
