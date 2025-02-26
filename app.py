@@ -9,7 +9,7 @@ from nltk.tokenize import word_tokenize
 from streamlit_webrtc import webrtc_streamer, WebRtcMode, AudioProcessorBase
 import numpy as np
 import av
-
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/mount/secrets/gcloud-key.json"
 # Load NLTK tokenizer
 nltk.download('punkt')
 
